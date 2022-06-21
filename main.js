@@ -34,13 +34,13 @@ const speakers = [
     name: 'Lumiere',
     job: 'Candle Holder',
     description: 'Lumiere is a kind-hearted, charismatic, yet rebellious maître d\' of the Beast. Incredibly social and hospitable towards all of whom he meets, Lumiere has a habit of disobeying the firm rules of his antisocial master, frequently resulting in controversy..',
-    Image: '../images/speakers/speaker5.png',
+    Image: './images/speakers/speaker5.png',
   },
   {
     name: 'Maui',
     job: 'Demigod',
     description: 'Maui is boisterous, gregarious, and mischievous. His manner of carrying himself matches his massive physique, being larger-than-life and a true god among men.',
-    Image: 'images/speakers/speaker6.png',
+    Image: './images/speakers/speaker6.png',
   },
 ];
 //  ------------------- GENERATING CARDS ---------------------- //
