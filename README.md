@@ -8,7 +8,6 @@
 
 > https://vitorguedesmadeira.github.io/Capstone/
 
-
 ## Built With
 
 - HTML
