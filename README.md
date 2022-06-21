@@ -6,7 +6,7 @@
 
 ## Acces link
 
-> https://vitorguedesmadeira.github.io/MyPortfolio/
+> https://vitorguedesmadeira.github.io/Capstone/
 
 
 ## Built With
@@ -43,3 +43,10 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
+## Design
+
+Original design idea by Cindy Shin in Behance.
+
+- https://www.behance.net/adagio07
+
