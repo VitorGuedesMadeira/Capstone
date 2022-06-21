@@ -9,38 +9,38 @@ const speakers = [
     name: 'Elza',
     job: 'Disney Queen',
     description: 'Elsa is the perfect mythic character – magical and larger than life. Grateful her kingdom now accepts her, she works hard to be a good queen. But deep down she can’t help but wonder why she was born with powers.',
-    Image: '../images/speakers/speaker1.png',
+    Image: './images/speakers/speaker1.png',
   },
   {
     name: 'Genie',
     job: 'Lamp Genie',
     description: 'The Genie is a fictional Jinn appearing in Walt Disney Pictures\' 31st animated feature film Aladdin (1992). He was voiced by Robin Williams in the first film.',
-    Image: '../images/speakers/speaker2.png',
+    Image: './images/speakers/speaker2.png',
   },
   {
     name: 'Pocahontas',
     job: 'Disney Princess',
     description: 'Pocahontas is the titular protagonist of Disney\'s 1995 animated feature film of the same name.',
-    Image: '../images/speakers/speaker3.png',
+    Image: './images/speakers/speaker3.png',
 
   },
   {
     name: 'Ralph',
     job: 'Disney Villain',
     description: 'Wreck-It Ralph is the titular protagonist of the movie series with the same name, Wreck-It Ralph. He is the main antagonist in the game Fix-It Felix, Jr. .',
-    Image: '../images/speakers/speaker4.png',
+    Image: './images/speakers/speaker4.png',
   },
   {
     name: 'Lumiere',
     job: 'Candle Holder',
     description: 'Lumiere is a kind-hearted, charismatic, yet rebellious maître d\' of the Beast. Incredibly social and hospitable towards all of whom he meets, Lumiere has a habit of disobeying the firm rules of his antisocial master, frequently resulting in controversy..',
-    Image: '../images/speakers/speaker5.png',
+    Image: './images/speakers/speaker5.png',
   },
   {
     name: 'Maui',
     job: 'Demigod',
     description: 'Maui is boisterous, gregarious, and mischievous. His manner of carrying himself matches his massive physique, being larger-than-life and a true god among men.',
-    Image: '../images/speakers/speaker6.png',
+    Image: './images/speakers/speaker6.png',
   },
 ];
 //  ------------------- GENERATING CARDS ---------------------- //
