@@ -5,8 +5,4 @@ function toggleMenu() {
   headerTag.classList.toggle('showMenu');
 }
 
-function closeMenu() {
-  headerTag.classList.remove('showMenu');
-}
-
-menuButton.onclick = () => {toggleMenu();};
+menuButton.onclick = () => { toggleMenu(); };

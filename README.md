@@ -2,7 +2,7 @@
 
 # Capstone Project
 
-> This is my first mobile project for my porfolio projects on Microverse.
+> This is my Capstone project for the last week, 1st module on Microverse.
 
 ## Acces link
 
