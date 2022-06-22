@@ -31,6 +31,37 @@ body {
   background-size: contain;
 }
 
+.social-media {
+  background-color: var(--color-one);
+  position: fixed;
+  height: 30px;
+  width: 100%;
+  padding: 0 200px;
+  flex-direction: row-reverse;
+  gap: 50px;
+  align-items: center;
+  display: none;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: white;
+  font-family: var(--font-two);
+}
+
+.flex {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20px;
+  width: 125px;
+}
+
+.flex img {
+  width: 15%;
+  height: auto;
+  filter: invert(100%);
+}
+
 .toggle-menu {
   position: fixed;
   padding: 20px;
@@ -288,14 +319,53 @@ body {
 }
 
 .partners-section {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  background-color: var(--color-one);
+  padding: 40px;
+  font-family: var(--font-two);
+}
+
+.partners-title {
+  color: var(--color-five);
+}
+
+.partners-div {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 10px 0;
+}
+
+.logo1 {
+  width: 15%;
+  height: 100%;
+}
+
+.logo2 {
+  width: 15%;
+  filter: saturate(0);
 }
 
 .footer-section {
-  display: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  gap: 50px;
+}
+
+.footer-logo-img {
+  height: 150px;
 }
 
 @media all and (min-width: 768px) {
+  .social-media {
+    display: flex;
+  }
+
   .header-section,
   .header-section.showMenu {
     background-color: white;
@@ -309,6 +379,7 @@ body {
     width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     z-index: 1000;
+    top: 30px;
   }
 
   .toggle-menu,

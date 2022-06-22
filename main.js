@@ -46,7 +46,7 @@ const speakers = [
 //  ------------------- GENERATING CARDS ---------------------- //
 for (let index = 0; index < speakers.length; index += 1) {
 // generating indivual speaker
-  const individualSpeaker = speakers[index];
+  const individualSpeaker = speakers[index]; //speakers[0], speakers[1], 
   // speaker div
   const speakerDiv = document.createElement('div');
   speakerDiv.setAttribute('class', 'speaker-div');
@@ -66,7 +66,7 @@ for (let index = 0; index < speakers.length; index += 1) {
   speakerDiv.appendChild(textsDiv);
   // speaker name
   const speakerName = document.createElement('h3');
-  const speakerNameText = document.createTextNode(individualSpeaker.name);
+  const speakerNameText = document.createTextNode('Josue');
   speakerName.appendChild(speakerNameText);
   textsDiv.appendChild(speakerName);
   // speaker job
