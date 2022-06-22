@@ -43,6 +43,7 @@ body {
   gap: 50px;
   align-items: center;
   display: none;
+  z-index: 10;
 }
 
 .social-media a {
