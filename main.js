@@ -46,7 +46,7 @@ const speakers = [
 //  ------------------- GENERATING CARDS ---------------------- //
 for (let index = 0; index < speakers.length; index += 1) {
 // generating indivual speaker
-  const individualSpeaker = speakers[index]; //speakers[0], speakers[1], 
+  const individualSpeaker = speakers[index];
   // speaker div
   const speakerDiv = document.createElement('div');
   speakerDiv.setAttribute('class', 'speaker-div');
