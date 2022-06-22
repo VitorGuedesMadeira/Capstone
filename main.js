@@ -93,12 +93,6 @@ for (let index = 0; index < speakers.length; index += 1) {
   textsDiv.appendChild(speakerDescription);
 }
 
-const toggleDownButton = document.createElement('a');
-const toggleDownButtonText = document.createTextNode('SEE MORE');
-toggleDownButton.setAttribute('class', 'show');
-toggleDownButton.appendChild(toggleDownButtonText);
-dinamicSpeakers.appendChild(toggleDownButton);
-
 //  ---------------------------- TOGGLE MENU ------------------------------ //
 
 function toggleMenu() {
@@ -106,11 +100,3 @@ function toggleMenu() {
 }
 
 menuButton.onclick = () => { toggleMenu(); };
-
-// -----------------------------  TOGGLE DOWN ----------------------------- //
-
-function toggleDown() {
-  XMLDocument.classList.toggle('showMore');
-}
-
-toggleDownButton.onclick = () => {toggleDown(); };
