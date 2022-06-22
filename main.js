@@ -72,7 +72,7 @@ for (let index = 0; index < speakers.length; index += 1) {
   speakerDiv.appendChild(textsDiv);
   // speaker name
   const speakerName = document.createElement('h3');
-  const speakerNameText = document.createTextNode('Josue');
+  const speakerNameText = document.createTextNode(individualSpeaker.name);
   speakerName.appendChild(speakerNameText);
   textsDiv.appendChild(speakerName);
   // speaker job
