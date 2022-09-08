@@ -1,12 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Capstone Project
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+# Capstone Project: 🦸🏻‍♂️
 
 > This is my Capstone project for the last week, 1st module on Microverse.
 
 ## Acces link
 
-> https://vitorguedesmadeira.github.io/Capstone/
+> [Click here for the live demo!](https://vitorguedesmadeira.github.io/Capstone/)
 
 ## Built With
 
@@ -14,6 +16,11 @@
 - CSS
 - Javascript
 - VScode
+- Git/GitHub
+
+## Quick view
+
+> ![](/screencapture-vitorguedesmadeira-github-io-Capstone-2022-09-08-11_52_22.png)
 
 ## Authors
 
@@ -35,6 +42,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- Microverse
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc

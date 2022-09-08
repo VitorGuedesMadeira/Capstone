@@ -24,7 +24,7 @@ html {
   --font-one: 'COCOGOOSE', sans-serif;
   --font-two: 'Lato', sans-serif;
 }
-
+  
 body {
   background-image: url(../images/background/mobile_intro_bg.png);
   background-repeat: no-repeat;
@@ -88,8 +88,19 @@ body {
   background-color: rgba(128, 128, 128, 0.9);
   top: 0;
   left: 0;
-  right: 0;
+  right: 200px;
   bottom: 0;
+  animation: hamburgerMenu 0.5s;
+}
+
+@keyframes hamburgerMenu {
+  from {
+    transform: translate3d(-375px,0,0);
+  }
+  
+  to {
+    transform: translate3d(0,0,0);
+  }
 }
 
 .header-section.showMenu .navigation-items ul {
@@ -371,6 +382,16 @@ body {
 }
 
 @media all and (min-width: 768px) {
+  @keyframes everything {
+    from {
+      transform: translate3d(0, 100px, 0);
+    }
+
+    to {
+      transform: translate3d(0, 0 ,0);
+    }
+  }
+
   .social-media {
     display: flex;
   }
@@ -442,6 +463,7 @@ body {
     padding: 100px 0;
     max-width: 950px;
     margin: auto;
+    animation: everything 2s;
   }
 
   .welcome-phrase {
@@ -465,6 +487,7 @@ body {
     gap: 3px;
     justify-content: center;
     font-family: var(--font-two);
+    animation: everything 2s;
   }
 
   .cards {

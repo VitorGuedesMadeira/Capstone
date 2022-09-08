@@ -25,7 +25,6 @@ const speakers = [
     job: 'Disney Princess',
     description: 'Pocahontas is the titular protagonist of Disney\'s 1995 animated feature film of the same name.',
     Image: './images/speakers/speaker3.png',
-
   },
   {
     id: 3,
