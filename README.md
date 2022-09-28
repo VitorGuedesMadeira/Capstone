@@ -20,7 +20,7 @@
 
 ## Quick view
 
-> ![](/screencapture-vitorguedesmadeira-github-io-Capstone-2022-09-08-11_52_22.png)
+> ![](/READMEimage.png)
 
 ## Authors
 
