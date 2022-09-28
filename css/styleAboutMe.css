@@ -44,6 +44,8 @@ body {
   align-items: center;
   display: none;
   z-index: 10;
+  top: 0;
+  left: 0;
 }
 
 .social-media a {
@@ -146,7 +148,7 @@ body {
   font-family: var(--font-one);
   font-size: 1.8em;
   line-height: 30px;
-  background-image: url(../pexels-seng-lam-ho-8844227.jpg);
+  background-image: url(../images/background/pexels-seng-lam-ho-8844227.jpg);
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
