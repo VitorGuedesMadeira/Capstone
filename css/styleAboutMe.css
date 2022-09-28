@@ -127,7 +127,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 100px 20px;
-  background-image: url(../images/background/disneybg.png);
+  background-image: linear-gradient(to right, transparent, rgb(0, 0, 0, 0.3)), url(../images/background/disneybg.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
