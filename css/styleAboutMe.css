@@ -127,6 +127,9 @@ body {
   display: flex;
   flex-direction: column;
   padding: 100px 20px;
+  background-image: url(../images/background/disneybg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .headline-container {
@@ -148,7 +151,7 @@ body {
   font-family: var(--font-one);
   font-size: 1.8em;
   line-height: 30px;
-  background-image: url(../images/background/pexels-seng-lam-ho-8844227.jpg);
+  background-image: linear-gradient(to right, transparent, rgb(0, 0, 0, 0.3)), url(../images/background/pexels-seng-lam-ho-8844227.jpg);
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
@@ -194,6 +197,7 @@ body {
   background-color: white;
   border-bottom: 2px solid var(--color-three);
   padding: 40px;
+  background-image: linear-gradient(to right, transparent, rgb(0, 0, 0, 0.3)), url(../images/background/subtle-dots.png);
 }
 
 .creative-title {
@@ -221,6 +225,7 @@ body {
   text-align: center;
   background-color: white;
   padding: 40px 10px;
+  background-image: linear-gradient(to right, transparent, rgb(0, 0, 0, 0.3)), url(../images/background/subtle-dots.png);
 }
 
 .past-title {
@@ -290,6 +295,7 @@ body {
   gap: 40px;
   justify-content: center;
   padding: 40px;
+  background-image: url(../images/background/subtle-dots.png);
 }
 
 .footer-texts {

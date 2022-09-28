@@ -25,12 +25,6 @@ html {
   --font-two: 'Lato', sans-serif;
 }
 
-body {
-  background-image: url(../images/background/mobile_intro_bg.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
 .social-media {
   background-color: var(--color-one);
   position: fixed;
@@ -130,6 +124,9 @@ body {
   display: flex;
   flex-direction: column;
   padding: 100px 20px;
+  background-image: linear-gradient(to right, transparent, rgb(0, 0, 0, 0.3)), url(../images/background/disneybg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .headline-container {
@@ -267,6 +264,7 @@ body {
   text-align: center;
   font-family: var(--font-two);
   background-color: var(--color-five);
+  background-image: url(../images/background/subtle-dots.png);
   padding-bottom: 50px;
   display: flex;
   flex-direction: column;
@@ -369,6 +367,7 @@ body {
   align-items: center;
   height: 200px;
   gap: 50px;
+  background-image: url(../images/background/subtle-dots.png);
 }
 
 .footer-logo-img {
@@ -462,8 +461,7 @@ body {
   .headline-section {
     display: flex;
     flex-direction: column;
-    padding: 100px 0;
-    max-width: 950px;
+    padding: 100px 200px;
     margin: auto;
     animation: everything 2s;
   }
