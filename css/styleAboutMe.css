@@ -65,15 +65,18 @@ body {
   filter: invert(100%);
 }
 
-.toggle-menu {
+.toggle-menu2 {
   position: fixed;
   background-color: transparent;
   padding: 20px;
+  width: 30px;
+  height: 30px;
   z-index: 10;
 }
 
-.toggle-img {
+.toggle-img2 {
   width: 30px;
+  height: 30px;
 }
 
 .navigation-items {
@@ -84,24 +87,24 @@ body {
   display: none;
 }
 
-.header-section.showMenu .navigation-items {
+.header-section2.showMenu .navigation-items {
   display: flex;
   position: fixed;
   background-color: rgba(128, 128, 128, 0.9);
   top: 0;
   left: 0;
-  right: 0;
+  right: 200px;
   bottom: 0;
-  z-index: 10;
+  animation: hamburgerMenu2 0.5s;
 }
 
-.header-section.showMenu .navigation-items ul {
+.header-section2.showMenu .navigation-items ul {
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
 
-.header-section.showMenu .navigation-items a {
+.header-section2.showMenu .navigation-items a {
   position: relative;
   color: white;
   text-decoration: none;
@@ -111,9 +114,11 @@ body {
   font-family: var(--font-one);
 }
 
-.header-section.showMenu .toggle-img {
+.header-section2.showMenu .toggle-img2 {
   content: url(../images/Header/close_mobile_menu.png);
   width: 30px;
+  z-index: 10000;
+  cursor: pointer;
 }
 
 .headline-section {
@@ -296,13 +301,23 @@ body {
   height: 150px;
 }
 
+@keyframes hamburgerMenu2 {
+  from {
+    transform: translate3d(-375px, 0, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 @media all and (min-width: 768px) {
   .social-media {
     display: flex;
   }
 
-  .header-section,
-  .header-section.showMenu {
+  .header-section2,
+  .header-section2.showMenu {
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -317,13 +332,13 @@ body {
     top: 30px;
   }
 
-  .toggle-menu,
-  .header-section.showMenu .toggle-menu {
+  .toggle-menu2,
+  .header-section2.showMenu .toggle-menu2 {
     display: none;
   }
 
-  .header-section .navigation-items,
-  .header-section.showMenu .navigation-items {
+  .header-section2 .navigation-items,
+  .header-section2.showMenu .navigation-items {
     display: flex;
   }
 
