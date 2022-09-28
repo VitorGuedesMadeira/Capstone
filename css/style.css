@@ -24,7 +24,7 @@ html {
   --font-one: 'COCOGOOSE', sans-serif;
   --font-two: 'Lato', sans-serif;
 }
-  
+
 body {
   background-image: url(../images/background/mobile_intro_bg.png);
   background-repeat: no-repeat;
@@ -95,11 +95,11 @@ body {
 
 @keyframes hamburgerMenu {
   from {
-    transform: translate3d(-375px,0,0);
+    transform: translate3d(-375px, 0, 0);
   }
-  
+
   to {
-    transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
   }
 }
 
@@ -388,7 +388,7 @@ body {
     }
 
     to {
-      transform: translate3d(0, 0 ,0);
+      transform: translate3d(0, 0, 0);
     }
   }
 

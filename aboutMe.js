@@ -1,5 +1,9 @@
-const menuButton = document.querySelector('.toggle-menu');
-const headerTag = document.querySelector('.header-section');
+//  ----------------- Variables ------------------------- //
+
+const menuButton = document.querySelector('.toggle-menu2');
+const headerTag = document.querySelector('.header-section2');
+
+//  ---------------- TOGGLE MENU ------------------------ //
 
 function toggleMenu() {
   headerTag.classList.toggle('showMenu');
